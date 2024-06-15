@@ -20,7 +20,8 @@
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(300px);
+
+       transform: translate(300px)nbvt6ju7b;
     }
   }
   
@@ -32,4 +33,3 @@
       transform: translateX(200px); /* Adjust the distance you want the button to move */
     }
   }
-  
