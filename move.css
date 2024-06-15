@@ -1,0 +1,35 @@
+.moving-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+  }
+  
+  #random-button {
+    animation: moveRandomly 5s infinite;
+  }
+  
+  #hover-button:hover {
+    animation: moveHorizontally 0.2s infinite ;
+  }
+  
+  @keyframes moveRandomly {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(300px);
+    }
+  }
+  
+  @keyframes moveHorizontally {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px); /* Adjust the distance you want the button to move */
+    }
+  }
+  
